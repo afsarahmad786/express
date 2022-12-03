@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      the event loop is responsible for basically running the code when a
+      certain event occurs it's aware of all these callbacks and execute said
+      code. it doesn't help with file operation though and it's important to
+      understand that this operation is not handled by the event loop, just the
+      callback that we might have defined on write file once it's done, that
+      code will be handled in event loop but that code will finish fast, so
+      basically the event loop will only handle callbacks that contain fast
+      finishing code.
+    </p>
+  </body>
+</html>
